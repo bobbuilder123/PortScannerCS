@@ -1,21 +1,10 @@
-# PortScanner
+# Simple Port Scanner
 
-**PortScanner** is a lightweight and fast TCP port scanner written in C#. It supports scanning individual IPs, multiple IPs, or full subnets (CIDR), with support for port ranges and optional output to a file.
-
----
-
-## ✅ Features
-
-- 🧠 **Simple usage**: Just pass target IPs and ports
-- 🌐 **CIDR support**: Scan entire subnets like `192.168.1.0/24`
-- 🔁 **Port range or list**: `22,80,443` or `1-1000`
-- ⚡ **Multithreaded scanning**
-- 📂 **Optional output to file**
-- ⏱️ **Custom timeout** (default: 500ms)
+The port scanner is a lightweight TCP port scanner written in C#. It supports scanning individual IPs, multiple IPs, or full subnets (CIDR), with support for port ranges and optional output to a file.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 PortScanner.exe <hosts> <ports> [timeout_ms] [outfile]
@@ -30,7 +19,7 @@ PortScanner.exe <hosts> <ports> [timeout_ms] [outfile]
 
 ---
 
-## 🔧 Examples
+## Example
 
 ```bash
 # Scan one IP for ports 80, 443, and 8080
