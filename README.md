@@ -50,6 +50,6 @@ This tool is intended for **authorized testing and educational purposes only**. 
 
 ## Author
 
-**Bob Builder**  
-*Built with simplicity and performance in mind.*  
-```
+**Bob Builder**
+
+https://adminions.ca
